@@ -1,0 +1,35 @@
+WrapCut - your site is ready to go online
+==========================================
+
+WHAT IS IN THIS ZIP
+  index.html             the entire editor (one file, nothing to install)
+  wrapcut-library.json   the list of your media
+  media/ ...             your files, already renamed correctly
+
+PUT IT ONLINE WITH GITHUB PAGES (free, about 5 minutes)
+
+1. Go to github.com and sign in (a free account is fine).
+2. Click the + at the top right and choose "New repository".
+3. Name it (for example: wrapcut), choose Public, click "Create repository".
+4. On the page that appears, click the link "uploading an existing file".
+5. Open the folder you just extracted from this ZIP.
+6. Select EVERYTHING inside it (index.html, wrapcut-library.json and the
+   whole media folder together) and drag it all onto the GitHub upload page.
+7. Click "Commit changes" and wait for the upload to finish.
+8. Open Settings > Pages (in the left sidebar). Under "Branch" choose
+   "main" and "/ (root)", then click Save.
+9. Wait about a minute, then open the address GitHub shows you:
+   https://YOUR-USERNAME.github.io/YOUR-REPO-NAME/
+
+Done. Everyone who opens that link gets your media in the Media and
+Music tabs. Only you can change the library, because only you can
+commit to the repository.
+
+TO ADD OR REPLACE FILES LATER
+  In your repo click "Add file" > "Upload files", upload the new files
+  (same names, or update the JSON too), commit - done.
+
+NOTES
+  - The shared library only works on the https:// address above.
+    Browsers block file access when opening index.html from disk.
+  - Only publish files you have the rights to share.
