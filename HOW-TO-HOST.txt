@@ -1,35 +1,20 @@
 WrapCut - your site is ready to go online
 ==========================================
 
-WHAT IS IN THIS ZIP
-  index.html             the entire editor (one file, nothing to install)
-  wrapcut-library.json   the list of your media
-  media/ ...             your files, already renamed correctly
+CONTENTS: index.html, wrapcut-library.json, media/ (your renamed files)
 
-PUT IT ONLINE WITH GITHUB PAGES (free, about 5 minutes)
+GITHUB PAGES (free, ~5 min)
+1. github.com > sign in > + > New repository > Public > Create
+2. Click "uploading an existing file"
+3. Drag in EVERYTHING from this folder (html + json + media folder)
+4. Commit changes
+5. Settings > Pages > Branch: main / (root) > Save
+6. Open https://YOUR-USERNAME.github.io/YOUR-REPO/
 
-1. Go to github.com and sign in (a free account is fine).
-2. Click the + at the top right and choose "New repository".
-3. Name it (for example: wrapcut), choose Public, click "Create repository".
-4. On the page that appears, click the link "uploading an existing file".
-5. Open the folder you just extracted from this ZIP.
-6. Select EVERYTHING inside it (index.html, wrapcut-library.json and the
-   whole media folder together) and drag it all onto the GitHub upload page.
-7. Click "Commit changes" and wait for the upload to finish.
-8. Open Settings > Pages (in the left sidebar). Under "Branch" choose
-   "main" and "/ (root)", then click Save.
-9. Wait about a minute, then open the address GitHub shows you:
-   https://YOUR-USERNAME.github.io/YOUR-REPO-NAME/
-
-Done. Everyone who opens that link gets your media in the Media and
-Music tabs. Only you can change the library, because only you can
-commit to the repository.
-
-TO ADD OR REPLACE FILES LATER
-  In your repo click "Add file" > "Upload files", upload the new files
-  (same names, or update the JSON too), commit - done.
-
-NOTES
-  - The shared library only works on the https:// address above.
-    Browsers block file access when opening index.html from disk.
-  - Only publish files you have the rights to share.
+IF ITEMS SHOW "HTTP 404"
+  - The file is not actually inside media/ in the repo, OR
+  - the name doesn't match the JSON exactly. GitHub is CASE-SENSITIVE:
+    Beach.mp4 and beach.mp4 are different files.
+  - No spaces or special characters in names.
+  - Use "Test all files" in the Publish tab on the live site to see
+    exactly which path failed.
